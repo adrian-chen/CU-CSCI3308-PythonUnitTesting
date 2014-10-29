@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 # Adrian Chen
+# Brian Newsom
+# Dawson Botsford
 # Summer 2014
 # CSCI 3308
 # Univerity of Colorado
