@@ -117,7 +117,7 @@ class Processor:
 
         """
 
-        phonenum = re.compile(r'^[0-9]{3}([\-.])*[0-9]{3}\1*[0-9]{4}$')
+        phonenum = re.compile(r'^[0-9]{3}([\-. ])+[0-9]{3}\1+[0-9]{4}$')
         if phonenum.match(self.text) is None:
             return False
         else:
